@@ -28,28 +28,18 @@ A lightweight system monitoring HUD (Heads-Up Display) that shows real-time syst
 python newhud.pyw
 ```
 
-### PowerShell Script
-```powershell
-.\run.ps1
-```
-
 ### Configuration
+
 Right-click the HUD to access the context menu:
 - Toggle display options (storage, speed, connection, etc.)
 - Switch between horizontal/vertical layout
 - Enable/disable small HUD mode
 - Toggle always-on-top behavior
 
-### Controls
-- **Left-click + drag**: Move the HUD around the screen
-- **Right-click**: Open configuration menu
-- **Close button**: Exit the application
-
 ## Requirements
 
 - Python 3.8+
 - Windows 10/11
-- Internet connection (for speed testing)
 
 ## Dependencies
 
@@ -57,3 +47,4 @@ Right-click the HUD to access the context menu:
 - `speedtest-cli` - Network speed testing
 - `PyQt6` - GUI framework
 - `GPUtil` - GPU monitoring
+
